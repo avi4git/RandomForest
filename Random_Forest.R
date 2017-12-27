@@ -6,8 +6,8 @@
 ## Building the model using Random Forest
 
 ## importing the data
-RFDF.dev <- read.table("C:/data_science_learnbay/DEV_SAMPLE.csv", sep = ",", header = T)
-RFDF.holdout <- read.table("C:/data_science_learnbay/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
+RFDF.dev <- read.table("path to csv file/DEV_SAMPLE.csv", sep = ",", header = T)
+RFDF.holdout <- read.table("path to csv filey/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
 c(nrow(RFDF.dev), nrow(RFDF.holdout))
 attach(RFDF.dev)
 #check table
